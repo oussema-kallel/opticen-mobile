@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> inputmode </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <!--<ion-item>
+    <ion-label position="stacked"> email </ion-label>
+    <ion-input
+      inputmode="email"
+      placeholder="Enter a username or email address"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">
+      <code>numeric</code>
+    </ion-label>
+    <ion-input inputmode="numeric" placeholder="Enter an integer"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked"> decimal </ion-label>
+    <ion-input inputmode="decimal" placeholder="Enter a decimal"></ion-input>
+  </ion-item>
+  <ion-button expand="block" mode="ios">enregistrer</ion-button>
+  <ion-button fill="solid" size="large" color="success" mode="ios"
+    >enregistrer</ion-button
+  >
+  <ion-list>
+    <ion-item *ngFor="let entry of form">
+      <ion-label>{{entry.val}}</ion-label>
+      <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  -->
+  <!-- fab placed to the top end -->
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

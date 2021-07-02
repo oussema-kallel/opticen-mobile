@@ -1,0 +1,7 @@
+{
+  "name": "opticien_mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
